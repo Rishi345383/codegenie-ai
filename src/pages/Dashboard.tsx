@@ -20,7 +20,7 @@ export default function Dashboard() {
             {[1, 2, 3].map((i) => (
               <Card key={i} className="p-6">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-lg font-semibold">Projec{i}</h3>
+                  <h3 className="text-lg font-semibold">Project{i}</h3>
                   <Code className="text-primary h-5 w-5" />
                 </div>
                 <p className="text-muted-foreground mb-4">
